@@ -939,7 +939,7 @@ public class AKAssetsCompressor : EditorWindow
         this.skipcompresion = false;
         this.useStreamingMipMap = true;
         this.textureCompressionQuality = 2;
-        this.useCrunchCompression = true;
+        this.useCrunchCompression = false;
         this.compressionQaulity = 50;
         this.UseMaxsizeAdjuster = true;
         this.useNormalmapOp = true;
@@ -956,7 +956,7 @@ public class AKAssetsCompressor : EditorWindow
         this.skipcompresion = false;
         this.useStreamingMipMap = true;
         this.textureCompressionQuality = 3;
-        this.useCrunchCompression = true;
+        this.useCrunchCompression = false;
         this.compressionQaulity = 100;
         this.UseMaxsizeAdjuster = true;
         this.useNormalmapOp = false;
