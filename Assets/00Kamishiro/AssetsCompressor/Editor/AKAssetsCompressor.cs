@@ -43,7 +43,7 @@ public class AKAssetsCompressor : EditorWindow
     }
 
     //GUI Component
-    private const string version = "AssetCompresser V1.3.1 forked by SHIMAKI Ayako";
+    private const string version = "AssetCompresser V1.3.2 forked by SHIMAKI Ayako";
     private const string linktext = "オリジナル様はこちら";
     private const string link = "https://github.com/AoiKamishiro/UnityCustomEditor_AssetsCompressor";
     private int toolberSelection = 0;
@@ -944,7 +944,7 @@ public class AKAssetsCompressor : EditorWindow
         this.useNormalmapOp = true;
         this.defaultMaxsize = MAXSIZE.MaxSize2048x2048;
         this.normalMaxsize = MAXSIZE.MaxSize1024x1024;
-        this.spriteMaxsize = MAXSIZE.MaxSize256x256;
+        this.spriteMaxsize = MAXSIZE.MaxSize32x32;
 }
 
     private void SetHighQuality()
@@ -960,6 +960,6 @@ public class AKAssetsCompressor : EditorWindow
         this.useNormalmapOp = false;
         this.defaultMaxsize = MAXSIZE.MaxSize8192x8192;
         this.normalMaxsize = MAXSIZE.MaxSize8192x8192;
-        this.spriteMaxsize = MAXSIZE.MaxSize8192x8192;
+        this.spriteMaxsize = MAXSIZE.MaxSize32x32;
     }
 }
